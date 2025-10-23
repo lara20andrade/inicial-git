@@ -207,6 +207,67 @@ git merge dev
 git log --oneline --graph
 ```
 
+## 🧩 17. Como integrar o Git Local ao GitHub
+
+```bash
+# Clonar um repositório existente do GitHub
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+# Entrar na pasta do projeto
+cd nome-do-repositorio
+
+# Adicionar alterações ao controle de versão
+git add .
+
+# Salvar as alterações localmente (commit)
+git commit -m "Mensagem descritiva das alterações"
+
+# Enviar as alterações para o GitHub
+git push origin main
+```
+
+## 🚀 18. Como adicionar colaboradores ao repositório privado
+1. Acesse o repositório no GitHub
+Vá para o repositório privado no qual você deseja adicionar colaboradores.
+
+2. Vá para as configurações do repositório
+No canto superior direito da página do repositório, clique em "Settings" (Configurações).
+
+3. Selecione "Manage access"
+No menu à esquerda, clique em "Manage access" (Gerenciar acesso). Você pode ver essa opção em "Access" (Acesso) na seção de configurações.
+
+4. Adicionar um colaborador
+Clique no botão "Invite a collaborator" (Convidar um colaborador).
+Digite o nome de usuário do GitHub da pessoa que você deseja adicionar como colaborador.
+Selecione o nome do usuário correto na lista de sugestões.
+
+5. Enviar o convite
+Após selecionar o usuário, clique em "Add" ou "Send Invitation" (enviar convite).
+O colaborador receberá um convite por e-mail ou uma notificação no GitHub para aceitar a colaboração.
+
+6. Aceitação do convite
+O colaborador precisa aceitar o convite para ter acesso ao repositório. Depois de aceito, ele poderá visualizar e colaborar no repositório conforme as permissões que você configurou.
+
+7. Gerenciar permissões (opcional)
+Você pode escolher o nível de permissão do colaborador (admin, write, read, etc.), dependendo das necessidades do seu projeto.
+
+
+## 💫 19. Como usar o GitFluence
+> O GitFluence é uma ferramenta que automatiza e facilita o uso do modelo GitFlow em projetos. Ele ajuda na criação e gerenciamento de branches como feature, release, hotfix e develop, além de integrar tarefas do Git com comandos simplificados.
+Exemplos rápidos:
+1. Instalar:
+```bash
+npm install -g gitfluence
+```
+2. Iniciar o GitFlow:
+```bash
+gitfluence init
+```
+3. Criar uma feature:
+```bash
+gitfluence feature start nome-da-feature
+```
+
 ---
 
 ## 📘 Créditos
